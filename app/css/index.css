@@ -1,0 +1,251 @@
+body {
+	background-color: #46094c;
+	font-family: 'Century Gothic',AppleGothic,'CenturyGothic',sans-serif;
+
+}
+
+a {
+	color:#f95276;
+}
+
+a:link {
+	color:white;
+}
+
+a:hover {
+	color:white;
+}
+
+.main-nav-list {
+link-style:none;
+}
+
+.my-nav {
+	 /* background-color: #10344c;*/
+	  color:#fff;	
+	  font-size:20px;
+	 	/*padding: 10px; */
+
+ /* justify-content: space-around;*/
+
+}
+
+.nav-header {
+		 display: flex;
+	    flex-direction: row;
+	    flex-wrap:wrap;
+	    padding:20px;
+	    margin-left:10px;
+	    list-style-type: none;
+	    text-decoration: none;
+
+}
+
+.nav-main a{
+	 /*background-color: black;*/
+	color:#e82edb;
+	color:#f95276;
+	border:solid;
+	border-radius: 5px;
+	font-size:20px;
+	padding:10px;
+	text-decoration: none;
+}
+
+.nav-sub  {
+  color: #fff;
+  		 display: flex;
+	    flex-direction: row;
+	    flex-wrap:wrap;
+	    margin-left: 10px;
+
+}
+
+#navRules a {
+	color: #fff;
+	color:#f95276;
+	margin-left:15px;
+	font-size:14px;
+	text-decoration: none;
+}
+
+
+
+#app {
+	margin-top: 5px;
+	margin-left:-10px;
+}
+
+
+.currentSession {
+	background-color: #46094c;
+	color:#f7c5be;
+	font-size: 20px;
+	padding:5px;
+	margin: 5px 5px 5px 15px;
+	padding-left: 15px;
+	width:360px;
+}
+
+.allSessions {
+	background-color: #46094c;
+	border-style: dotted;
+	border-color: red;
+
+	color:#f7c5be;
+	color:#07efef;
+	font-size: 20px;
+	/*padding:1px;*/
+	margin: 2px 2px 2px 2px;
+	padding-left: 10px;
+	/*padding-top:0.2px;*/
+	width:340px;
+	/*height:40px;*/
+	border-radius: 2%;
+}
+
+
+
+.linkz-list li {
+  list-style-type: none;
+}
+
+
+.sessionLink {
+	color:#fff;
+	font-size:16px;
+}
+
+
+.linkz {
+	color:#19cce8;
+	font-size:16px;
+}
+
+.tutorialz {
+	color:#19cce8;
+	font-size:16px;
+}
+
+.title {
+	font-size: 28px;
+	margin-left: 10px;
+}
+
+
+.assignment {
+	
+	color:#ef073d;
+	font-size:16px;
+}
+
+
+.all-title {
+	color: #e82edb;
+	color:#fff;
+	/*color: #10344c;*/
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+
+.all-title a:hover {
+	color:red;
+}
+
+.button {
+  color: #e6e6e6;
+  background: #46094c;
+  border-style: solid;
+  border-color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  width: 160px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+
+.rulesText  {
+	color:white;
+	margin-left: 20px;
+	width:400px;
+}
+
+.mailLink {
+	color: #e82edb;
+	margin-left: 10px;
+}
+
+
+/*resources page*/
+.resources-title {
+	color:#f7c5be;
+}
+
+
+
+.resource-links {
+	list-style-type: none;
+
+}
+
+.resource-links-div{
+	color:#f95276;
+	font-size:14px;
+	/*width:400px;*/
+}
+
+/*main projects page*/
+.flex-container {
+		display: flex;
+	    flex-direction: column;
+	    	font-size: 14px;
+	    	text-align: center;
+color:white;
+}
+.projects-list {
+	list-style-type: none;
+
+}
+
+.project-link {
+		background-color: #0f103a;
+		border:solid;
+		border-color: black;
+		color:white;
+		margin-left: -20px;
+	    margin-top:10px;
+		width:300px;
+	   /* height:100px;*/
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+}
+
+/*each project page*/
+
+.project-div {
+		color:white;
+	margin-left: 20px;
+	margin-top:40px;
+	width:400px;
+}
+
+
+.inspiration-list {
+	list-style-type: none;
+
+}
