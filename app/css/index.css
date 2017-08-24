@@ -153,6 +153,24 @@ link-style:none;
 	color:red;
 }
 
+.show-all-button {
+  color: #e6e6e6;
+  background: #46094c;
+  border-style: solid;
+  border-color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  width: 160px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 5px;
+  margin-bottom: 30px;
+  margin-left:40px;
+  margin-top:20px;
+}
+
+
 .button {
   color: #e6e6e6;
   background: #46094c;

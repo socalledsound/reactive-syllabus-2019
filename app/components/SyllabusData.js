@@ -117,9 +117,18 @@ const SyllabusData =  {
 					linkText:"my little sfx game prototype",
 					linkSrc:"https://socalledsound.github.io/sfx-game-1/"
 				},
+				{
+					linkText:"Jim Campbell's LED images swim through space",
+					linkSrc:"https://www.youtube.com/watch?v=4x48aCX1uK8"
+				},
 							
 			],
 			tutorialz: [
+							{
+					linkText:"How to Use a Breadboard",
+					linkSrc:"https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard"
+				},
+			
 				{
 					linkText:"all about switches and buttons from sparkfun",
 					linkSrc:"https://learn.sparkfun.com/tutorials/switch-basics"
@@ -382,46 +391,66 @@ const SyllabusData =  {
 			description:'',
 			assignment: "",
 			linkz: [
+				{
+					linkText:"Nicolas Felton --  Photo-viz",
+					linkSrc:"http://videos.theconference.se/nicholas-felton-creating-meaningful-stories-out"
+				},
+				{
+					linkText:"Jim Campbell's LED images swim through space",
+					linkSrc:"https://www.youtube.com/watch?v=4x48aCX1uK8"
+				},				
+				{
+					linkText:"pixel at wikipedia",
+					linkSrc:"https://en.wikipedia.org/wiki/Pixel"
+				},
+				{
+					linkText:"",
+					linkSrc:""
+				},
+				{
+					linkText:"",
+					linkSrc:""
+				},
 
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"year of the glitch -- phillip stearns",
+					linkSrc:"https://creators.vice.com/en_us/article/vvy779/phillip-stearns-glitches-meat-year-long-creative-code-experiment"
 				},
 				{
 					linkText:"",
 					linkSrc:""
 				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
-				},					
+				
 			],
 			tutorialz: [
+				{
+					linkText:"Array in p5.js",
+					linkSrc:"https://p5js.org/examples/arrays-array.html"
+				},
+				{
+					linkText:"let's make a grid in p5",
+					linkSrc:""
+				},
+
 
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"The Pixel Array - p5.js Tutorial",
+					linkSrc:"https://www.youtube.com/watch?v=nMUMZ5YRxHI&list=PLRqwX-V7Uu6aKKsDHZdDvN6oCJ2hRY_Ig&index=3"
 				},
 				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
+					linkText:"p5.js - video pixels",
+					linkSrc:"https://p5js.org/examples/dom-video-pixels.html"
 				},					
+				{
+					linkText:"phillip stearns p5 code on github",
+					linkSrc:"https://github.com/phillipdavidstearns/aYearInCode/tree/master/p5"
+				},
+				{
+					linkText:"javascript array reference",
+					linkSrc:"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+				},
+
+				
 			]			
 		},
 		{
@@ -436,6 +465,7 @@ const SyllabusData =  {
 			linkz: [
 
 
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -445,12 +475,8 @@ const SyllabusData =  {
 					linkSrc:""
 				},
 				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
+					linkText:"real time projection mapping",
+					linkSrc:"https://gizmodo.com/this-real-time-image-warping-projector-will-blow-your-m-1788032732"
 				},
 				{
 					linkText:"",
@@ -467,8 +493,8 @@ const SyllabusData =  {
 					linkSrc:""
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Touchscreen on a wall using Kinect and a projector",
+					linkSrc:"https://www.youtube.com/watch?v=-yxRTn3fj1g"
 				},
 
 				{
@@ -493,8 +519,8 @@ const SyllabusData =  {
 			assignment: "",
 			linkz: [
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"project 1 prompt",
+					linkSrc:"https://socalledsound.github.io/electroF2017/project1.html"
 				},
 				{
 					linkText:"",
@@ -553,8 +579,8 @@ const SyllabusData =  {
 			assignment: "",
 			linkz: [
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"project 1 prompt",
+					linkSrc:"https://socalledsound.github.io/electroF2017/project1.html"
 				},
 				{
 					linkText:"",
@@ -618,33 +644,113 @@ const SyllabusData =  {
 							linkText:"Tacita Dean, 'Collections and Childhood'",
 							linkSrc:"https://drive.google.com/open?id=0B2LpnVlBWDK2SjNFcUVEejFoeXM"
 						},
+
 						{
-							linkText:"Bill Viola 'Will There Be Condiminiums in Data Space?'",
-							linkSrc:"https://drive.google.com/open?id=0B2LpnVlBWDK2a196VUs5MTNnWjA"
+							linkText:"food that looks likek iggy azalea",
+							linkSrc:"http://foodthatlookslikeiggyazalea.tumblr.com/archive"
 						},
+						
 						{
-							linkText:"",
-							linkSrc:""
-						},
+							linkText:"Bicycle Built For Two Thousand",
+							linkSrc:"http://www.bicyclebuiltfortwothousand.com/"
+						},	
 						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Aaron Koblin, 'Artfully Visualizing Our Humanity'",
+							linkSrc:"https://www.youtube.com/watch?v=4v4XxlfVk3o"
 						},					
+						{
+							linkText:"Corey Arcangel -- working on my novel",
+							linkSrc:"https://twitter.com/WrknOnMyNovel"
+						},
+						{
+							linkText:"Cory Arcangel - Paganini's 5th Caprice",
+							linkSrc:"https://www.youtube.com/watch?v=JjVIwJJPGws"
+						},	
+						{
+							linkText:"Zimoun",
+							linkSrc:"http://www.zimoun.net/works.html"
+						},
+						{
+							linkText:"Music From Saharan Cellphones",
+							linkSrc:"https://sahelsounds.bandcamp.com/album/music-from-saharan-cellphones"
+						},	
+
+						{
+							linkText:"Every episode of Friends season 1, played simultaneously",
+							linkSrc:"https://flowingdata.com/2015/01/07/every-episode-of-friends-season-1-played-simultaneously/"
+						},
+						{
+							linkText:"Experience the horror of 90 solid minutes of The Grateful Dead tuning its instruments",
+							linkSrc:"http://news.avclub.com/experience-the-horror-of-90-solid-minutes-of-the-gratef-1798273081"
+						},
+						
+						{
+							linkText:"Francis Alÿs: Fabiola",
+							linkSrc:"https://www.theguardian.com/artanddesign/2009/may/03/francis-alys-saint-fabiola"
+						},
+						{
+							linkText:"Christian Marclay, The Clock",
+							linkSrc:"https://www.youtube.com/watch?v=xp4EUryS6ac"
+						},
+						{
+							linkText:"Work No 189 by Martin Creed at GOMA, Brisbane 2014",
+							linkSrc:"https://vimeo.com/93954515"
+						},
+						{
+							linkText:"Lorna Simpson, Easy To Remember",
+							linkSrc:"https://vimeo.com/91549843"
+						},	
+						{
+							linkText:"One and Three Chairs, Joseph Kosuth",
+							linkSrc:"https://www.moma.org/learn/moma_learning/joseph-kosuth-one-and-three-chairs-1965"
+						},
+						{
+							linkText:"Kristin Lucas, refresh",
+							linkSrc:"http://www.kristinlucas.com/refresh.html"
+						},
+
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},																
 					],
 					tutorialz: [
-					                
+						{
+							linkText:"javascript array reference",
+							linkSrc:"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+						},					                
 						{
 							linkText:"array methods",
 							linkSrc:"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
 						},
+						{
+							linkText:"array of objects in p5.js",
+							linkSrc:"https://p5js.org/examples/arrays-array-objects.html"
+						},	
 						{
 							linkText:"",
 							linkSrc:""
@@ -673,60 +779,73 @@ const SyllabusData =  {
 					month:9,
 					day:28,
 					date: "09/28",
-					title: "Loops",
+					title: "Loops and Streams",
 					description:'',
 					assignment: "",
 					linkz: [
+						{
+							linkText:"Zac's Haunted Hopuse by Dennis Cooper",
+							linkSrc:"http://www.kiddiepunk.com/zacshauntedhouse/chapter_1.html"
+						},
 						{
 							linkText:"Casey Michael Henry, 'How Dennis Cooper turns GIFS into fiction'",
 							linkSrc:"https://www.newyorker.com/books/page-turner/how-dennis-cooper-creates-fiction-from-gifs"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Yoshi Sodeoka -- 10 Years of Psychic TV's Frenetic Visuals Become Looping Video Art",
+							linkSrc:"https://creators.vice.com/en_us/article/d7475j/10-years-of-psychic-tv-become-looping-video-art"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"“Tango” by Zbigniew Rybczyński, 1980",
+							linkSrc:"https://vimeo.com/90339479"
+						},						
+						{
+							linkText:"giphy",
+							linkSrc:"https://giphy.com/"
+						},							
+						{
+							linkText:"gifsound mashups",
+							linkSrc:"https://gifsound.com/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Pamela Z is a composer who works with loops a lot",
+							linkSrc:"https://vimeo.com/channels/pamelaz"
 						},
+
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"WEB AUDIO LOOP MIXER",
+							linkSrc:"http://middleearmedia.com/webaudioloopmixer/"
 						},
-						{
-							linkText:"",
-							linkSrc:""
-						},					
+				
 					],
 					tutorialz: [
+
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"9.1: JavaScript setTimeout() Function - p5.js Tutorial",
+							linkSrc:"https://www.youtube.com/watch?v=nGfTjA8qNDA"
+						},
+
+						{
+							linkText:"9.2: JavaScript setInterval() Function - p5.js Tutorial",
+							linkSrc:"https://www.youtube.com/watch?v=CqDqHiamRHA"
+						},
+						{
+							linkText:"TaskTimer.js -- lirary for managing time in javascript",
+							linkSrc:"https://onury.github.io/tasktimer/?content=guide"
+						},
+						{
+							linkText:"Task manager using Node.js EventEmitter and EventSource",
+							linkSrc:"http://programminglife.io/task-manager-using-node-js-eventemitter-and-eventsource/"
 						},
 						{
 							linkText:"",
 							linkSrc:""
-						},
+						},						
 						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},	
+							linkText:"Javascript Drum Machine Demo",
+							linkSrc:"http://www.schillmania.com/projects/soundmanager2/demo/mpc/"
+						},						
+	
 					]
 				},						
 		{
@@ -752,6 +871,26 @@ const SyllabusData =  {
 							linkSrc:"readings/marciaTucker-baldessariUnpredictable.pdf"
 						},
 						{
+							linkText:"John Cage, excerpt from 'Indeterminacy'",
+							linkSrc:"https://www.youtube.com/watch?v=bT3guS2QRxY"
+						},
+						{
+							linkText:"John Cage, Water Walk, on 'I've Got A Secret' game show",
+							linkSrc:"https://www.youtube.com/watch?v=SSulycqZH-U"
+						},
+						{
+							linkText:"Christian marclay mini-documentary",
+							linkSrc:"https://www.youtube.com/watch?v=boWmP0os2e8"
+						},
+						{
+							linkText:"Christian Marclay - Shuffle",
+							linkSrc:"https://vimeo.com/30929081"
+						},
+						{
+							linkText:"Brian eno, Oblique Strategies",
+							linkSrc:"http://stoney.sb.org/eno/oblique.html"
+						},							
+						{
 							linkText:"10_print_chr_205_5_rnd_1_goto_10",
 							linkSrc:"http://www.slate.com/articles/technology/books/2012/11/computer_programming_10_print_chr_205_5_rnd_1_goto_10_from_mit_press_reviewed.html"
 						},
@@ -770,19 +909,19 @@ const SyllabusData =  {
 					],
 					tutorialz: [
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"random values, p5.js",
+							linkSrc:"https://p5js.org/examples/math-random.html"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"random whole numbers from free code camp",
+							linkSrc:"https://www.freecodecamp.com/challenges/generate-random-whole-numbers-with-javascript"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"2.5: The random() Function - p5.js Tutorial",
+							linkSrc:"https://www.youtube.com/watch?v=nfmV2kuQKwA"
 						},
 						{
-							linkText:"",
+							linkText:"random code repo",
 							linkSrc:""
 						},
 						{
@@ -812,46 +951,56 @@ const SyllabusData =  {
 							linkSrc:"https://drive.google.com/open?id=0B2LpnVlBWDK2S3FnR3U3bjBnTHM"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"steve reich, pendulum music performance",
+							linkSrc:"https://www.youtube.com/watch?v=7qEVywKMRLg"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Physicist of Sound | Carsten Nicolai",
+							linkSrc:"https://www.youtube.com/watch?v=zCBIKXFrfNA"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Hans Jenny and Carsten Nicolai",
+							linkSrc:"http://rhizome.org/editorial/2008/aug/06/other-convergences-hans-jenny-and-carsten-nicolai-/"
+						},
+
+						{
+							linkText:"turux.org",
+							linkSrc:"http://www.turux.org/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"100 days of click art, Leslie Ruckman",
+							linkSrc:"https://leslieruckman.tumblr.com/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Nyan Cat 10 hours (original)",
+							linkSrc:"https://www.youtube.com/watch?v=wZZ7oFKsKzY"
+						},
+						{
+							linkText:"Henry Flynt - Hillbilly Tape Music",
+							linkSrc:"https://www.youtube.com/watch?v=LstLpd_iVWA"
 						},					
 					],
 					tutorialz: [
+
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"glitch and distort images",
+							linkSrc:"http://creativejs.com/2013/07/glitch-and-distort-images/"
+						},
+						{
+							linkText:"Glitch resources",
+							linkSrc:"http://www.glitchet.com/resources"
+						},
+						{
+							linkText:"glitche -- app",
+							linkSrc:"http://glitche.com/"
 						},
 						{
 							linkText:"",
 							linkSrc:""
 						},
 						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Sonic Pi",
+							linkSrc:"http://sonic-pi.net/"
 						},
 						{
 							linkText:"",
@@ -873,14 +1022,7 @@ const SyllabusData =  {
 							linkText:"Pauline Oliveros, 'Some Sound Observations'",
 							linkSrc:""
 						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
+
 						{
 							linkText:"",
 							linkSrc:""
@@ -927,7 +1069,7 @@ const SyllabusData =  {
 					month:10,
 					day:12,
 					date: "10/12",
-					title: "Feedback",
+					title: "The Audio Interface",
 					description:'',
 					assignment: "",
 					linkz: [
@@ -1113,14 +1255,64 @@ const SyllabusData =  {
 					month:10,
 					day:24,
 					date: "10/24",
-					title: "The Ludic Interface",
+					title: "Artists Breaking Videogames",
 					description:'',
 					assignment: "",
 					linkz: [
 						{
-							linkText:"Mathias Fuchs, Ludic Interfaces",
-							linkSrc:""
+							linkText:"Designing For Play | Meet Hellicar & Lewis",
+							linkSrc:"https://www.youtube.com/watch?v=Xxdg2H9DvXg"
 						},
+						{
+							linkText:"Ludic Interfaces, Matthias Fuchs et al",
+							linkSrc:"http://creativegames.org.uk/publications/pdf_files/Ludic_Interfaces-2013.pdf"
+						},
+						{
+							linkText:"Indie Game Development with Jane Friedhoff",
+							linkSrc:"https://www.youtube.com/watch?v=VIEwBm7PWQM"
+						},
+						{
+							linkText:"Jane Friedhoff",
+							linkSrc:"http://janefriedhoff.com/"
+						},
+						{
+							linkText:"jane friedhoff- scream em up",
+							linkSrc:"https://vimeo.com/41629022"
+						},	
+						{
+							linkText:"handvaska by Ramsey nasser and Jane Friedhof",
+							linkSrc:"http://nas.sr/handv%C3%A4ska/"
+						},												
+						{
+							linkText:"matt parker - duello",
+							linkSrc:"http://madparker.com/duello/"
+						},
+						{
+							linkText:"matt parker - recurse",
+							linkSrc:"https://www.youtube.com/watch?v=UwpX2veYCSY&feature=youtu.be"
+						},
+						{
+							linkText:"kaho abe projects",
+							linkSrc:"http://kahoabe.net/"
+						},
+						{
+							linkText:"kaho abe - hit me",
+							linkSrc:"https://vimeo.com/29638917"
+						},					
+						{
+							linkText:"wafaa bilal - domestic tension",
+							linkSrc:"http://wafaabilal.com/domestic-tension/"
+						},
+						{
+							linkText:"johann sebastian joust",
+							linkSrc:"https://www.youtube.com/watch?v=c2Ei9fgFAOs"
+						},
+						{
+							linkText:"free fall high score",
+							linkSrc:"https://gizmodo.com/5828833/free-fall-high-score-drop-your-iphone-off-the-tallest-building-to-win-the-game/"
+						},
+
+
 						{
 							linkText:"",
 							linkSrc:""
@@ -1175,7 +1367,7 @@ const SyllabusData =  {
 					month:10,
 					day:26,
 					date: "10/26",
-					title: "Players and Player Haters",
+					title: "Player Player",
 					description:'',
 					assignment: "",
 					linkz: [
@@ -1183,6 +1375,10 @@ const SyllabusData =  {
 							linkText:"Alexander Galloway, 'The Interface Effect'",
 							linkSrc:""
 						},
+						{
+							linkText:"Star Choir by Malik Gaines and Alexandro Segade",
+							linkSrc:"https://vimeo.com/193188303"
+						},						
 						{
 							linkText:"",
 							linkSrc:""
@@ -1237,13 +1433,64 @@ const SyllabusData =  {
 					month:10,
 					day:31,
 					date: "10/31",
-					title: "AI",
+					title: "The Uncanny Valley",
 					description:'',
 					assignment: "",
 					linkz: [
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Sunspring -- movie written by an AI that won a film festival",
+							linkSrc:"https://arstechnica.com/gaming/2016/06/an-ai-wrote-this-movie-and-its-strangely-moving/"
+						},
+						{
+							linkText:"Bina 48 robot Meets Bina Rothblatt, the artist who it is based on",
+							linkSrc:"https://www.youtube.com/watch?v=KYshJRYCArE"
+						},
+
+						{
+							linkText:"The Uncanniest Valleys youtube compilation",
+							linkSrc:"https://www.youtube.com/watch?v=IM82RzN0urI"
+						},
+						{
+							linkText:"The Uncanny Valley, Popular Science",
+							linkSrc:"https://www.youtube.com/watch?v=CNdAIPoh8a4"
+						},
+
+						{
+							linkText:"Kanye Lyric Generator",
+							linkSrc:"http://kanyerest.xyz/serenade"
+						},
+						{
+							linkText:"Massive networks of twitter bots",
+							linkSrc:"http://www.bbc.com/news/technology-38724082"
+						},
+						{
+							linkText:"cambridge analytica, the data that turned the world upside down",
+							linkSrc:"https://motherboard.vice.com/en_us/article/mg9vvn/how-our-likes-helped-trump-win"
+						},	
+
+						{
+							linkText:"speaking of power and data, Robert Mercer",
+							linkSrc:"https://www.theguardian.com/politics/2017/feb/26/robert-mercer-breitbart-war-on-media-steve-bannon-donald-trump-nigel-farage"
+						},
+						{
+							linkText:"a twitter bot that apologizes for every trump tweet",
+							linkSrc:"https://github.com/ipc103/apology-trump"
+						},
+						{
+							linkText:"chatbot that offers legal aid to refugees",
+							linkSrc:"https://www.theguardian.com/technology/2017/mar/06/chatbot-donotpay-refugees-claim-asylum-legal-aid"
+						},
+						{
+							linkText:"'the fall of humanity', list of twitter bots",
+							linkSrc:"https://twitter.com/ckolderup/lists/the-fall-of-humanity/members"
+						},
+						{
+							linkText:"uncharted atlas is a bot that makes imaginary maps",
+							linkSrc:"https://twitter.com/unchartedatlas"
+						},	
+						{
+							linkText:"Researchers shut down AI that invented its own language",
+							linkSrc:"http://www.digitaljournal.com/tech-and-science/technology/a-step-closer-to-skynet-ai-invents-a-language-humans-can-t-read/article/498142#.WXmHKf3ZQ38.facebook"
 						},
 						{
 							linkText:"",
@@ -1256,41 +1503,34 @@ const SyllabusData =  {
 						{
 							linkText:"",
 							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},
-						{
-							linkText:"",
-							linkSrc:""
-						},					
+						},											
 					],
 					tutorialz: [
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"wekinator -- gui-based machine learning",
+							linkSrc:"http://www.wekinator.org/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"shiffman/make a twitter bot",
+							linkSrc:"http://shiffman.net/a2z/twitter-bots/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"shiffman course on machine intelligence looks interesting!",
+							linkSrc:"https://github.com/shiffman/NOC-S17-2-Intelligence-Learning"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"build a neural net in 4 minutes",
+							linkSrc:"https://www.youtube.com/watch?v=h3l4qz76JhQ"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Building A Simple AI Chatbot With Web Speech API And Node.js",
+							linkSrc:"https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
-						},	
+							linkText:"MarI/O - Machine Learning for Video Games",
+							linkSrc:"https://www.youtube.com/watch?v=qv6UVOQ0F44"
+						},						
+	
 					]
 				},	
 		{
@@ -1320,12 +1560,12 @@ const SyllabusData =  {
 							linkSrc:""
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"video games are the tools of evil capitalists",
+							linkSrc:"https://www.nytimes.com/interactive/2017/04/02/technology/100000005019770.mobile.html?_r=0"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"but its ok because they arent addictive",
+							linkSrc:"https://mobile.nytimes.com/2017/04/01/opinion/sunday/video-games-arent-addictive.html"
 						},					
 					],
 					tutorialz: [
@@ -1671,7 +1911,7 @@ const SyllabusData =  {
 					month:11,
 					day:28,
 					date: "11/28",
-					title: "Data and Data and Data",
+					title: "Virtually Augmented",
 					description:'',
 					assignment: "",
 					linkz: [
@@ -1733,7 +1973,7 @@ const SyllabusData =  {
 					month:11,
 					day:30,
 					date: "11/30",
-					title: "Work on Final Projects",
+					title: "Data and Dada",
 					description:'',
 					assignment: "",
 					linkz: [

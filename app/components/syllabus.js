@@ -47,6 +47,12 @@ class Syllabus extends React.Component {
 		})
 	}
 
+	resetFilteredSessions() {
+
+			filteredSessions = sessions;
+		
+	}
+
 
 	render () {
 		var currentSession = this.state.currentSession;
@@ -62,7 +68,12 @@ class Syllabus extends React.Component {
 		return (
 
 			<div className='column'>
+				
+
+	
 				{currentSession === null &&
+					<div>
+					<button className="show-all-button" onClick={this.resetFilteredSessions}>show older dates</button>
 					<ul> 
 						{filteredSessions.map(function(session){
 							return (
@@ -78,7 +89,8 @@ class Syllabus extends React.Component {
 							)
 						}.bind(this))}
 					
-					</ul>									
+					</ul>
+					</div>									
 				}
 
 				{currentSession !== null &&
