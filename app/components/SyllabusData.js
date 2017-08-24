@@ -27,15 +27,15 @@ const SyllabusData =  {
 					linkText:"doublearchive",
 					linkSrc:"http://www.doublearchive.com"
 				},
-
+				{
+					linkText:"hands.wtf",
+					linkSrc:"http://hands.wtf/"
+				},
 				{
 					linkText:"Jim Campbell's LED images swim through space",
 					linkSrc:"https://www.youtube.com/watch?v=4x48aCX1uK8"
 				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -265,12 +265,12 @@ const SyllabusData =  {
 					linkSrc:"http://creative-coding.decontextualize.com/first-steps/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"p5 examples page",
+					linkSrc:"https://p5js.org/examples/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Daniel Shiffman p5.js intro videos (many videos!)",
+					linkSrc:"https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
 				},
 				{
 					linkText:"",
@@ -289,51 +289,82 @@ const SyllabusData =  {
 			assignment: "",
 			linkz: [
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Zabet Patterson, 'From The Gun Controller to the Mandala: the Cybernetic Art of James Whitney'",
+					linkSrc:"http://www.mitpressjournals.org/doi/pdf/10.1162/grey.2009.1.36.36"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"John Whitney, Arabesque",
+					linkSrc:"https://www.youtube.com/watch?v=sQrq7S0dP54"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Oskar Fischinger, Optical Poem",
+					linkSrc:"https://www.youtube.com/watch?v=they7m6YePo&t=175s"
+				},
+
+				{
+					linkText:"Frieder Nake Drawing re-make in js",
+					linkSrc:"https://vimeo.com/35554900"
+				},
+
+				{
+					linkText:"Robert Breer, Eyewash",
+					linkSrc:"https://www.youtube.com/watch?v=6jTUWNOTbfs"
+				},
+								{
+					linkText:"Star Rider, 1983",
+					linkSrc:"https://www.youtube.com/watch?v=m7z25MrF1hk"
+				},	
+								{
+					linkText:"WORLD OF TOMORROW by DON HERTZFELDT - teaser trailer",
+					linkSrc:"https://www.youtube.com/watch?v=XdV1uFwtCpo"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"my mother's lingo",
+					linkSrc:"https://www.sbs.com.au/mygrandmotherslingo/"
+				},						
+				{
+					linkText:"alice in videoland",
+					linkSrc:"http://rachelnabors.com/alice-in-videoland/book/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"val head on designing interface animation",
+					linkSrc:"https://blog.intercom.com/val-head-designing-interface-animation/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
-				},					
+					linkText:"fenetres",
+					linkSrc:"https://codepen.io/bali_balo/pen/yJOmgv"
+				},
+
+								{
+					linkText:"verlet",
+					linkSrc:"https://codepen.io/tmrDevelops/pen/MYVzMe"
+				},	
 			],
 
 			tutorialz: [
 				{
 					linkText:"the humble for loop p5.js",
-					linkSrc:""
+					linkSrc:"https://p5js.org/examples/control-iteration.html"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"make some things, make them move",
+					linkSrc:"https://p5js.org/examples/objects-multiple-objects.html"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"basic oscillation - scale size using a sin() function",
+					linkSrc:"https://p5js.org/examples/math-sine.html"
+				},					
+				{
+					linkText:"mo.js animation library",
+					linkSrc:"http://mojs.io/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"matter.js physics engine",
+					linkSrc:"http://brm.io/matter-js/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"three.js for 3d animations",
+					linkSrc:"https://threejs.org/"
 				},
 				{
 					linkText:"my little sfx game prototype",
@@ -351,14 +382,7 @@ const SyllabusData =  {
 			description:'',
 			assignment: "",
 			linkz: [
-				{
-					linkText:"",
-					linkSrc:""
-				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -377,10 +401,7 @@ const SyllabusData =  {
 				},					
 			],
 			tutorialz: [
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -413,10 +434,8 @@ const SyllabusData =  {
 			description:'',
 			assignment: "",
 			linkz: [
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -451,10 +470,7 @@ const SyllabusData =  {
 					linkText:"",
 					linkSrc:""
 				},
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -496,10 +512,7 @@ const SyllabusData =  {
 					linkText:"",
 					linkSrc:""
 				},
-				{
-					linkText:"",
-					linkSrc:""
-				},					
+				
 			],
 			tutorialz: [
 				{
