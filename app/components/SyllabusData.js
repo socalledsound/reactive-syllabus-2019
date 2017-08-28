@@ -93,7 +93,7 @@ const SyllabusData =  {
 			day: 29,
 			date: "08/29",
 			title: "Buttons and Switches",
-			description: "In which we learn about on and about off.  ALSO, we learn more about various electrical components and tools, and, with any luck, start working with the raspberry pi to turn lights on and off and in the process, learn a little about Node.js, NPM and the basics of using the command line.  We'll also talk about git and github and where you can access code for this class.",
+			description: "In which we learn about on and about off.  ALSO, we learn more about various electrical components and tools, and, with any luck, start working with the raspberry pi to turn lights on and off and in the process, learn a little about Node Red, Node.js, NPM and the basics of using the command line.  We'll also talk about git and github and where you can access code for this class.",
 			// reading: "Arun Mehta, 'When A Button Is All That Connects You to The World'",
 			assignment: "create a switchable circuit with an LED and a button or switch of some sort",
 			linkz: [
@@ -141,6 +141,10 @@ const SyllabusData =  {
 					linkText:"getting started with Node-Red on the raspberry Pi",
 					linkSrc:"https://www.raspberrypi.org/learning/getting-started-with-node-red/worksheet/"
 				},	
+				{
+					linkText:"node red on the raspberry pi - nice video intro",
+					linkSrc:"https://www.youtube.com/watch?v=Q5PRltTc6s4"
+				},
 				{
 					linkText:"JavaScript for IoT: Blinking LED on Raspberry Pi With Node.js",
 					linkSrc:"http://www.instructables.com/id/JavaScript-for-IoT-Blinking-LED-on-Raspberry-Pi-Wi/"
@@ -213,10 +217,7 @@ const SyllabusData =  {
 					linkText:"interface.js",
 					linkSrc:"http://www.charlie-roberts.com/interface/"
 				},	
-				{
-					linkText:"",
-					linkSrc:""
-				},
+
 				{
 					linkText:"",
 					linkSrc:""
@@ -1493,8 +1494,8 @@ const SyllabusData =  {
 							linkSrc:"http://www.digitaljournal.com/tech-and-science/technology/a-step-closer-to-skynet-ai-invents-a-language-humans-can-t-read/article/498142#.WXmHKf3ZQ38.facebook"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Musician Taryn Southern on composing her new album entirely with AI",
+							linkSrc:"https://www.theverge.com/2017/8/27/16197196/taryn-southern-album-artificial-intelligence-interview"
 						},
 						{
 							linkText:"",
