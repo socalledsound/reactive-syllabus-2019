@@ -28,9 +28,14 @@ https://www.tumblr.com/blog/stephaniehuangs.
     albert manautou and this is my tumblr blog link: https://electroalbert.tumblr.com/
     
     
-    https://www.tumblr.com/blog/katherine-qiu
+    sanaz: https://www.tumblr.com/blog/sanazkhsrv
 
-Username: Katherine-Qiu
+Username: Katherine-Qiu   https://www.tumblr.com/blog/katherine-qiu
+
+kaio hu: https://www.tumblr.com/blog/huxiao0108.
+   
+brytni: https://brytni-johnston.tumblr.com/
+   
    
    
 SFAI:::
