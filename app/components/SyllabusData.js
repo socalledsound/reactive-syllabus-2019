@@ -150,7 +150,7 @@ const SyllabusData =  {
 					linkSrc:"http://www.instructables.com/id/JavaScript-for-IoT-Blinking-LED-on-Raspberry-Pi-Wi/"
 				},
 				{
-					linkText:"JavaScript for IoT: Blinking LED on Raspberry Pi with Node.js",
+					linkText:"JavaScript for IoT: Blinking LED on Raspberry Pi with Node.js (video)",
 					linkSrc:"https://www.youtube.com/watch?v=DIhODQmZafA&t=173s"
 				},					
 				{
@@ -233,7 +233,7 @@ const SyllabusData =  {
 			date: "09/05",
 			title: "Painting By Numbers",
 			description:"In which we are introduced to 'javascript for artists' aka p5.",
-			assignment: "",
+			assignment: "Make an interaction, using either p5.js or node red. Take some user input and map it onto some kind of action. The result can be simple or complex. You can deploy something simple like printing something to the debug console in node red, or if you feel ambitious you can wire up a button to send a tweet or an email. Or you can use the MousePressed function in p5 to trigger an action, or even attach that function to a specific button or shape. Or, go wild and make a bunch of buttons that all do different things, or all affect some process. Have fun! Help other people have fun!",
 			linkz: [
 				{
 					linkText:"hello p5.js",
@@ -248,8 +248,20 @@ const SyllabusData =  {
 					linkSrc:"https://alpha.editor.p5js.org/"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"typedrummer",
+					linkSrc:"http://typedrummer.com/qqd87t"
+				},
+				{
+					linkText:"Springs by Berenger Recoules",
+					linkSrc:"http://b2renger.github.io/pages_p5js/springs/index.html"
+				},
+				{
+					linkText:"reactive books by John Maeda",
+					linkSrc:"https://www.youtube.com/watch?v=nA_UTUvC4h8"
+				},				
+				{
+					linkText:"a little game with buttons that I made in p5.js",
+					linkSrc:"https://socalledsound.github.io/sfx-game-1/"
 				},
 				{
 					linkText:"",
@@ -283,6 +295,27 @@ const SyllabusData =  {
 					linkSrc:"https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA"
 				},
 				{
+					linkText:"basics of interactivity in p5.js",
+					linkSrc:"http://coursescript.com/notes/interactivecomputing/interactivity/"
+				},
+				{
+					linkText:"Shiffman on sliders and buttons in the DOM",
+					linkSrc:"https://www.youtube.com/watch?v=587qclhguQg&list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX&index=5"
+				},
+				{
+					linkText:"dat.gui",
+					linkSrc:"https://workshop.chromeexperiments.com/examples/gui/#1--Basic-Usage"
+				},
+				{
+					linkText:"BUFI scripting library for interfaces in p5.js",
+					linkSrc:"https://github.com/blindfish3/bufi"
+				},
+				{
+					linkText:"interface.js",
+					linkSrc:"http://www.charlie-roberts.com/interface/"
+				},	
+
+				{
 					linkText:"",
 					linkSrc:""
 				},					
@@ -296,7 +329,7 @@ const SyllabusData =  {
 			date: "09/07",
 			title: "Motion",
 			description:'',
-			assignment: "",
+			assignment: "Make an animation using light. Use whatever tools you feel comfortable with. You might just make a simple video or series of still images using your phone or you might wire up a circuit with several LEDs, controlled by your raspberry pi, or you might use software to manipulate light sources or you might have some sort of pixel matrix that you can output some code to......just, think about moving light and make something interesting.",
 			linkz: [
 				{
 					linkText:"Zabet Patterson, 'From The Gun Controller to the Mandala: the Cybernetic Art of James Whitney'",
@@ -353,17 +386,32 @@ const SyllabusData =  {
 
 			tutorialz: [
 				{
+					linkText:"putting up a site at gh pages (video tutorial)",
+					linkSrc:"https://www.youtube.com/watch?v=8HPYsDTk17A"
+				},
+				{
 					linkText:"the humble for loop p5.js",
 					linkSrc:"https://p5js.org/examples/control-iteration.html"
 				},
+							
 				{
 					linkText:"make some things, make them move",
 					linkSrc:"https://p5js.org/examples/objects-multiple-objects.html"
 				},
+
 				{
 					linkText:"basic oscillation - scale size using a sin() function",
 					linkSrc:"https://p5js.org/examples/math-sine.html"
-				},					
+				},	
+				{
+					linkText:"the nature of code, great free book by daniel shiffman about coding natural models",
+					linkSrc:"http://natureofcode.com/"
+				},						
+
+				{
+					linkText:"the nature of code, daniel shiffman course developed from the book",
+					linkSrc:"https://www.kadenze.com/courses/the-nature-of-code/info"
+				},	
 				{
 					linkText:"mo.js animation library",
 					linkSrc:"http://mojs.io/"
@@ -388,7 +436,7 @@ const SyllabusData =  {
 			month:9,
 			day:12,
 			date: "09/12",
-			title: "Pixels",
+			title: "Pixels and Neopixels",
 			description:'',
 			assignment: "",
 			linkz: [
@@ -396,26 +444,41 @@ const SyllabusData =  {
 					linkText:"Nicolas Felton --  Photo-viz",
 					linkSrc:"http://videos.theconference.se/nicholas-felton-creating-meaningful-stories-out"
 				},
-				{
-					linkText:"Jim Campbell's LED images swim through space",
-					linkSrc:"https://www.youtube.com/watch?v=4x48aCX1uK8"
-				},				
+			
 				{
 					linkText:"pixel at wikipedia",
 					linkSrc:"https://en.wikipedia.org/wiki/Pixel"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Angela Bulloch's 'Horizontal Technicolor'",
+					linkSrc:"https://frieze.com/article/angela-bulloch-0"
+				},	
+
+				{
+					linkText:"Andreas Gursky, Paris-Montparnasse",
+					linkSrc:"http://www.andreasgursky.com/en/works/1993/paris-montparnasse/zoom:1"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"Marius Watz, Blocker",
+					linkSrc:"http://mariuswatz.com/2010/04/22/blocker/"
 				},
 
 				{
 					linkText:"year of the glitch -- phillip stearns",
 					linkSrc:"https://creators.vice.com/en_us/article/vvy779/phillip-stearns-glitches-meat-year-long-creative-code-experiment"
+				},
+				{
+					linkText:"Robert Smithson, Yucatan Mirror Displacements",
+					linkSrc:"https://www.guggenheim.org/artwork/5322"
+				},
+
+				{
+					linkText:"Paul Klee, Magic Squares",
+					linkSrc:"http://www.metmuseum.org/art/collection/search/483161"
+				},
+				{
+					linkText:"",
+					linkSrc:""
 				},
 				{
 					linkText:"",
@@ -429,8 +492,8 @@ const SyllabusData =  {
 					linkSrc:"https://p5js.org/examples/arrays-array.html"
 				},
 				{
-					linkText:"let's make a grid in p5",
-					linkSrc:""
+					linkText:"let's make a 2d Array in p5",
+					linkSrc:"https://p5js.org/examples/arrays-array-2d.html"
 				},
 
 
@@ -451,6 +514,40 @@ const SyllabusData =  {
 					linkSrc:"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
 				},
 
+				{
+					linkText:"neopixel overview",
+					linkSrc:"https://learn.adafruit.com/adafruit-neopixel-uberguide/overview"
+				},
+				{
+					linkText:"neopixel LED curtain",
+					linkSrc:"https://learn.adafruit.com/1500-neopixel-led-curtain-with-raspberry-pi-fadecandy/fadecandy-clients?view=all"
+				},
+				{
+					linkText:"Raspberry Pi with RGB-Pixels and node.js",
+					linkSrc:"https://tinkerlog.com/2012/12/21/raspberry-pi-with-rgb-pixels-and-node-js/"
+				},
+				{
+					linkText:"Using Johnny Five to power NeoPixel",
+					linkSrc:"https://chrisruppel.com/blog/arduino-johnny-five-neopixel/"
+				},				
+				{
+					linkText:"drive neopixels in docker on raspberry pi",
+					linkSrc:"http://blog.hypriot.com/post/drive-neopixels-in-docker/"
+				},
+				{
+					linkText:"node-rpio",
+					linkSrc:"https://github.com/jperkin/node-rpio"
+				},
+
+
+				{
+					linkText:"node-pixel",
+					linkSrc:"https://www.npmjs.com/package/node-pixel"
+				},
+				{
+					linkText:"space invader pendant",
+					linkSrc:"https://learn.adafruit.com/trinket-slash-gemma-space-invader-pendant"
+				},
 				
 			]			
 		},
@@ -464,34 +561,101 @@ const SyllabusData =  {
 			description:'',
 			assignment: "",
 			linkz: [
+				{
+					linkText:"Pippilotti Rist, 'Color is Dangerous'",
+					linkSrc:"https://www.youtube.com/watch?v=NdLuwX2uRTM"
+				},
+				{
+					linkText:"Pippilotti Rist, 'Pour Your Body Out' at MOMA",
+					linkSrc:"https://www.youtube.com/watch?v=sxVkA83_s3g"
+				},
+				{
+					linkText:"Chris O'Shea, Out of Bounds",
+					linkSrc:"https://www.youtube.com/watch?v=CMiuyrqz8rw"
+				},		
+				{
+					linkText:"Bill Fontana, Echoes Made Visible",
+					linkSrc:"https://www.youtube.com/watch?v=6ymrP6uFlFw"
+				},
+				{
+					linkText:"kimchi and chips",
+					linkSrc:"https://www.youtube.com/watch?v=W5qd2RpG4kQ"
+				},
+								{
+					linkText:"ryoji ikeda test pattern",
+					linkSrc:"https://www.youtube.com/watch?v=XwjlYpJCBgk&t=74s"
+				},
 
 
+				{
+					linkText:"anthony mccall line describing a cone",
+					linkSrc:"https://youtu.be/1-HWsxPnNNY"
+				},
+				{		
+					linkText:"anthony mccall between you and i",
+					linkSrc:"https://youtu.be/dy-EMV_kNB8"
+				},	
 
 				{
 					linkText:"",
 					linkSrc:""
 				},
+												{
+					linkText:"Creating A Cathedral Of Light Inside A Gas Tank",
+					linkSrc:"https://www.youtube.com/watch?v=9AsIplUJbdE"
+				},
 				{
 					linkText:"",
 					linkSrc:""
 				},
+				{
+					linkText:"projection mapping examples on youtube",
+					linkSrc:"https://www.youtube.com/watch?v=LnvmO9YZJbY"
+				},				
 				{
 					linkText:"real time projection mapping",
 					linkSrc:"https://gizmodo.com/this-real-time-image-warping-projector-will-blow-your-m-1788032732"
 				},
 				{
-					linkText:"",
-					linkSrc:""
-				},					
-			],
-			tutorialz: [
+					linkText:"Amon Tobin ISAM trailer",
+					linkSrc:"https://www.youtube.com/watch?v=WLrt7-kIgIM"
+				},	
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"flying lotus stage w projection ",
+					linkSrc:"https://www.youtube.com/watch?v=rbuQuvoc0YE&list=PLnC9-BmaDSFrrhW_jP5os7bk2LJ-VKWjD"
+				},
+				{
+					linkText:"BIOLUMINESCENT FOREST",
+					linkSrc:"https://www.youtube.com/watch?v=1I-_yCEhd2w"
+				},					
+
+				{
+					linkText:"sagrada familia projection mapping",
+					linkSrc:"https://www.youtube.com/watch?v=4clKj8J2kc8"
+				},					{
+					linkText:"Pico projectors + iPhones = One amazing, tiny police chase",
+					linkSrc:"https://www.youtube.com/watch?v=cwL3PEeE0sU"
+				},
+			
+				{
+					linkText:"live face projection mapping",
+					linkSrc:"https://www.youtube.com/watch?v=MZ9MoF5QowM"
 				},
 				{
 					linkText:"",
 					linkSrc:""
+				},	
+
+				
+			],
+			tutorialz: [
+				{
+					linkText:"different types of projectors",
+					linkSrc:"https://www.youtube.com/watch?v=Bjgt54h8d20"
+				},
+				{
+					linkText:"resolution and aspect ratio explained",
+					linkSrc:"https://www.youtube.com/watch?v=npbsI8-nD-4"
 				},
 				{
 					linkText:"Touchscreen on a wall using Kinect and a projector",
@@ -499,12 +663,12 @@ const SyllabusData =  {
 				},
 
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"projection mapping on bottle",
+					linkSrc:"https://www.youtube.com/watch?v=7ZHef-hAvOM&index=3&list=PLnC9-BmaDSFrrhW_jP5os7bk2LJ-VKWjD"
 				},
 				{
-					linkText:"",
-					linkSrc:""
+					linkText:"beginners guide to projection mapping",
+					linkSrc:"https://www.youtube.com/watch?v=skU3T8bgEIM"
 				},					
 			]			
 		},
@@ -1015,7 +1179,7 @@ const SyllabusData =  {
 					month:10,
 					day:10,
 					date: "10/10",
-					title: "Filters",
+					title: "Feedbacker",
 					description:'',
 					assignment: "",
 					linkz: [
@@ -1498,8 +1662,8 @@ const SyllabusData =  {
 							linkSrc:"https://www.theverge.com/2017/8/27/16197196/taryn-southern-album-artificial-intelligence-interview"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"AI learns to re-create Super Mario Bros. by watching someone else play it",
+							linkSrc:"https://www.theverge.com/2017/9/10/16276528/ai-video-games-game-engine"
 						},
 						{
 							linkText:"",

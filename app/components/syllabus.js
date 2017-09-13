@@ -73,7 +73,7 @@ class Syllabus extends React.Component {
 	
 				{currentSession === null &&
 					<div>
-					<button className="show-all-button" onClick={this.resetFilteredSessions}>show older dates</button>
+					// <button className="show-all-button" onClick={this.resetFilteredSessions}>show older dates</button>
 					<ul> 
 						{filteredSessions.map(function(session){
 							return (

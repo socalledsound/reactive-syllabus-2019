@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SFAI interactive art syllabus" content="">
+    <meta name="Chris Kubick" content="">
+
+    <title>tumblr blogs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/2016courseStyles.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <script src="js/handlebars-v4.0.5.js"></script>
+<!-- <script type="text/javascript" src="js/randomWorks.js"></script> -->
+<script id="image-template" type="text/x-handlebars-template">
+{{#each images}}
+  <a href="{{link}}"><img src="{{image}}" alt="" class="images"></a>
+  <h2><span>{{name}}</span></h2>
+{{/each}}	
+
+</script>
+
+
+      <link href="css/2016courseStyles.css" rel="stylesheet">
+  <!--   <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+
+
+</head>
+
+
+
+
+    <nav>
+        <div>
+                        <div class="myNavDiv">
+                <ul class="myNavUl">    
+                    <li class="navLink" >
+                      <a class="navTitle" href="index.html">Games Artists Play</a>
+                    </li> 
+
+                    <li class="navLink" >
+                        <a id="resources" href="resources.html">resources</a>
+                    </li> 
+
+                    <li class="navLink" >
+                        <a id="studentWork" href="studentworks.html">tumblr blogs</a>
+                    </li> 
+                    <li class="navLink" >
+                        <a id="rules" href="rules.html">rules</a>
+                    </li> 
+
+                </ul>
+            </div>
+
+        </div>
+       
+    </nav>
+
+
+
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-12" >
+
+      <div id='imageDiv'></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	
+	
+  var imageTemplate = document.getElementById("image-template").innerHTML;
+ 
+  var template = Handlebars.compile(imageTemplate);
+
+
+ var imagesStatic = [
+  	{image:"studentImages/kubick.jpg", link:"https://www.tumblr.com/blog/gamesartistsplay2017", name: "ck"	},
+    {image:"studentImages/blue.jpg",link: "https://www.tumblr.com/blog/wigglebisuits" , name: "blue" },
+    {image:"studentImages/blythe.jpg",link:"https://blythefeeney.tumblr.com/"  , name: "blythe" },
+    {image:"studentImages/yoyo.jpg",link: "https://fantasticyo.tumblr.com/"  , name: "yoyo" },
+    {image:"studentImages/heather.jpg",link: "https://jumpstartfirstgrade.tumblr.com/"  , name: "heather" },
+    // {image:"studentImages/katalin.jpg",link: "https://wasisupposetobecreative.tumblr.com/" , name: "katalin" },
+    {image:"studentImages/gordon.jpg",link: "https://idontknowhattobecalledlol.tumblr.com/" , name: "gordon" },   
+    {image:"studentImages/miguel.jpg",link: "https://kimbombatimbomba.tumblr.com/"  , name: "miguel" },
+    {image:"studentImages/shannon.jpg",link: "https://nopublicrestrooms.tumblr.com/"  , name: "shannon"},
+    {image:"studentImages/jayden.jpg", link: "https://jaydenrre.tumblr.com/", name: "jayden"},
+    {image:"studentImages/qian.jpg", link:"http://bqhqpd.tumblr.com/", name:"qian"},
+    {image:"studentImages/gfunk.jpg", link:"https://biodigitaljazzhands.tumblr.com/",name:"g-funk"},
+        {image:"studentImages/david.jpg", link:"https://lazilytenaciousarbiter.tumblr.com", name:"david"}
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: },
+    // {image:"studentImages/",link:  , name: }
+
+  ];
+
+
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+
+images=shuffle(imagesStatic);
+
+
+
+
+
+  var imageData = template({images});
+
+ document.getElementById('imageDiv').innerHTML += imageData;
+
+
+</script>
