@@ -1239,20 +1239,20 @@ const SyllabusData =  {
 					assignment: "",
 					linkz: [
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"ms compose 95 autotel",
+							linkSrc:"http://autotel.co/mscompose95/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"block chords",
+							linkSrc:"http://dev.abe.sh/block-chords/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"holdspace",
+							linkSrc:"http://holdspace.surge.sh/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"xysynth",
+							linkSrc:"https://tothepoweroftom.github.io/xysynth/"
 						},
 						{
 							linkText:"",
