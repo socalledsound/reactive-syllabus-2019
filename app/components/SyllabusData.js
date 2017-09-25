@@ -984,7 +984,23 @@ const SyllabusData =  {
 				
 					],
 					tutorialz: [
-
+						{
+							linkText:"a brief introduction to audacity",
+							linkSrc:"https://www.youtube.com/watch?v=Y4L3uYKiuSk"
+						},
+						{
+							linkText:"editing video in photoshop",
+							linkSrc:"https://www.youtube.com/watch?v=XSZJX_F6HVI"
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						
 						{
 							linkText:"9.1: JavaScript setTimeout() Function - p5.js Tutorial",
 							linkSrc:"https://www.youtube.com/watch?v=nGfTjA8qNDA"
@@ -995,7 +1011,7 @@ const SyllabusData =  {
 							linkSrc:"https://www.youtube.com/watch?v=CqDqHiamRHA"
 						},
 						{
-							linkText:"TaskTimer.js -- lirary for managing time in javascript",
+							linkText:"TaskTimer.js -- library for managing time in javascript",
 							linkSrc:"https://onury.github.io/tasktimer/?content=guide"
 						},
 						{
@@ -1003,8 +1019,8 @@ const SyllabusData =  {
 							linkSrc:"http://programminglife.io/task-manager-using-node-js-eventemitter-and-eventsource/"
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"functional javascript: streams",
+							linkSrc:"http://blog.jeremyfairbank.com/javascript/functional-javascript-streams-2/"
 						},						
 						{
 							linkText:"Javascript Drum Machine Demo",
@@ -1127,7 +1143,19 @@ const SyllabusData =  {
 							linkText:"Hans Jenny and Carsten Nicolai",
 							linkSrc:"http://rhizome.org/editorial/2008/aug/06/other-convergences-hans-jenny-and-carsten-nicolai-/"
 						},
-
+						{
+							linkText:"Agnes Martin",
+							linkSrc:"http://notations.aboutdrawing.org/agnes-martin/"
+						},
+						{
+							linkText:"contemporary drawing as idea and process (extensive show catalog)",
+							linkSrc:"http://notations.aboutdrawing.org/"
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						
 						{
 							linkText:"turux.org",
 							linkSrc:"http://www.turux.org/"
@@ -1202,9 +1230,13 @@ const SyllabusData =  {
 						},					
 					],
 					tutorialz: [
+						<li><a href="https://vimeo.com/157024760">kinect, facetracker, and ableton in p5.js with OSC</a></li>
+						<li><a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aKKsDHZdDvN6oCJ2hRY_Ig">shiffman, 8 videos on using video camera input</a></li>
+
+
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"Acoustic Feedback System With Snare Drum (or Any Other Object)",
+							linkSrc:"http://www.instructables.com/id/Acoustic-Feedback-System-With-Snare-Drum-or-Any-Ot/"
 						},
 						{
 							linkText:"",
@@ -1255,15 +1287,40 @@ const SyllabusData =  {
 							linkSrc:"https://tothepoweroftom.github.io/xysynth/"
 						},
 						{
+							linkText:"AI drum machine google/kyle macdonald et al",
+							linkSrc:"https://experiments.withgoogle.com/ai/drum-machine/view/"
+						},
+						{
+							linkText:"bird sounds machine learning experiment google/kyle macdonald et al",
+							linkSrc:"https://experiments.withgoogle.com/ai/bird-sounds/view/"
+						},	
+						{
 							linkText:"",
 							linkSrc:""
 						},
 						{
 							linkText:"",
 							linkSrc:""
-						},					
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},
+						{
+							linkText:"",
+							linkSrc:""
+						},											
 					],
 					tutorialz: [
+
 						{
 							linkText:"",
 							linkSrc:""
@@ -1666,9 +1723,23 @@ const SyllabusData =  {
 							linkSrc:"https://www.theverge.com/2017/9/10/16276528/ai-video-games-game-engine"
 						},
 						{
+							linkText:"google deep dream generator",
+							linkSrc:"https://deepdreamgenerator.com/"
+						},
+						{
+							linkText:"some cooler and less corporately whitewashed user generated deep dreams",
+							linkSrc:"http://psychic-vr-lab.com/deepdream/"
+						},
+
+						{
+							linkText:"sketch-rnn -- draw with AI",
+							linkSrc:"https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html"
+						},
+
+						{
 							linkText:"",
 							linkSrc:""
-						},											
+						}
 					],
 					tutorialz: [
 						{
@@ -1691,10 +1762,14 @@ const SyllabusData =  {
 							linkText:"Building A Simple AI Chatbot With Web Speech API And Node.js",
 							linkSrc:"https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/"
 						},
+						{						
+							linkText:"AI drum machine - kyle macdonald et al",
+							linkSrc:"https://experiments.withgoogle.com/ai/drum-machine/view/"
+						},
 						{
 							linkText:"MarI/O - Machine Learning for Video Games",
 							linkSrc:"https://www.youtube.com/watch?v=qv6UVOQ0F44"
-						},						
+						}						
 	
 					]
 				},	
@@ -1704,17 +1779,24 @@ const SyllabusData =  {
 					month:11,
 					day:2,
 					date: "11/02",
-					title: "Critical Games",
+					title: "Critical Games, Emergent Behavior",
 					description:'',
 					assignment: "",
 					linkz: [
+						<li><a href="http://e.m-bed.de/d/">yung jake embedded</a></li>
+						<li><a href="https://www.youtube.com/watch?v=iz13HMsvb6o">miranda july somebody</a></li>
+					  <li><a href="http://www.guerrillagirls.com/">guerilla girls</a></li>
+					  <li><a href="http://tomassaraceno.com/">tomas saraceno</a></li>
+					   <li><a href="http://www.yayoi-kusama.jp/e/information/">yayoi kusama</a></li>
+					  <li><a href="https://vimeo.com/danbrowne">dan browne</a></li>
+					  <li><a href="http://www.artnews.com/2015/04/30/french-pavilion-artist-celeste-boursier-mougenot-teaches-the-world-to-sing/">celeste boursier-mougenot</a></li>
 						{
 							linkText:"Jane McGonigal, Alternate Reality Gaming",
 							linkSrc:""
 						},
 						{
-							linkText:"",
-							linkSrc:""
+							linkText:"AI drum machine - kyle macdonald et al",
+							linkSrc:"https://experiments.withgoogle.com/ai/drum-machine/view/"
 						},
 						{
 							linkText:"",
@@ -1734,6 +1816,11 @@ const SyllabusData =  {
 						},					
 					],
 					tutorialz: [
+
+						<li><a href="webglplayground.net/gallery">webGL playground</a></li>
+						<li><a href="https://p5js.org/examples/hello-p5-flocking.html">flocking/boids in p5</a></li>
+						  <li><a href="http://harry.me/blog/2011/02/17/neat-algorithms-flocking/">flocking/boids exlplained</a></li>
+						<li><a href="https://www.youtube.com/watch?v=QbUPfMXXQIY">boids explained in a video</a></li>
 						{
 							linkText:"",
 							linkSrc:""
