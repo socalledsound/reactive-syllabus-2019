@@ -1,11 +1,11 @@
 {
-  "name": "react-syllabus-fall-2015",
+  "name": "react-syllabus-fall-2018",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
-     "build": "NODE_ENV='production' webpack -p",
+    "build": "NODE_ENV='production' webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
@@ -28,7 +28,7 @@
     "css-loader": "^0.28.4",
     "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.18.2",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.5"
   }
 }
